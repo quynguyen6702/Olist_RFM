@@ -35,9 +35,13 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 -	Với cụm cluster 2: Ta thấy cụm phân bố nhiều ở các điểm [244,344,444] là những khách hàng từ lâu rồi chưa mua hàng và mua với tần suất rất thấp,chi tiêu rất ít cho những lần mua → Khách hàng chắc chắn rời công ty.
 -	Với cụm cluster 3: Ta thấy cụm phân bố nhiều ở các điểm [133,134,142,143,144] là những khách hàng mới mua gần đây, nhưng mua hàng không thường xuyên và số tiền chi ra vẫn ở mức thấp → Khách hàng mới.
 -	Với cụm cluster 4: Ta thấy cụm phân bố nhiều ở các điểm [111,112,113,121,122,123,131,132] là những khách hàng mua hàng giao dịch gần đây, mua hàng thường xuyên, chi tiêu nhiều → Khách hàng trung thành.
+
+  
 ***Phác họa chân dung mỗi nhóm khách hàng:*
  	![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a6d71044-15e0-464e-a07c-e14d0ad46b9d)
  	![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/27c1baa3-544f-4a37-a129-995ad2b118ef)
+
+  
 ***Đặc điểm khách hàng:*
 -	Khách hàng chi tiêu nhiều nhất: Phân khúc khách hàng này chỉ dựa trên một trong ba chỉ số: những khách hàng có điểm số cao nhất về giá trị tiền tệ. 
 -	Khách hàng trung thành: Đây là một phân khúc khách hàng khác chỉ xem xét một trong ba chỉ số: khách hàng có điểm cao nhất về tần suất. Mặc dù mua hàng thường xuyên nhưng họ không nhất thiết phải là người chi tiêu nhiều nhất.
