@@ -2,7 +2,7 @@
 ***Cơ sở lý thuyết*
 ### 1.	Mô hình RFM
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/4106a8c1-55c8-4d58-9fbe-fa516b443e20)
-###### Phân tích RFM cho phép người làm marketing nhắm mục tiêu các nhóm khách hàng cụ thể với các thông tin liên lạc phù hợp hơn nhiều với hành vi cụ thể của họ – và do đó tạo ra tỷ lệ phản hồi cao hơn nhiều, cộng với sự trung thành và giá trị lâu dài của khách hàng tăng lên.
+###### Phân tích RFM cho phép người làm marketing nhắm mục tiêu các nhóm khách hàng cụ thể với các thông tin liên lạc phù hợp hơn nhiều với hành vi cụ thể của họ –và do đó tạo ra tỷ lệ phản hồi cao hơn nhiều, cộng với sự trung thành và giá trị lâu dài của khách hàng tăng lên.
 ###### Phân tích RFM là một kĩ thuật phân khúc khách hàng dựa trên hành vi giao dịch của khách hàng trong quá khứ, RFM bao gồm 3 chỉ số chính:
 -	Recency (R): Thời gian giao dịch cuối cùng.
 -	Frequency (F): Tổng số lần giao dịch chi tiêu.
@@ -20,12 +20,12 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 -	số ngày kể từ lần ghé thăm gần nhất.
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/723cb1f1-950a-4bc1-9d85-aa4db88fa5d5)
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/54b94d6a-0bf7-4ef0-a38e-49589d9ab36b)
-- Nhận xét: Có thể thấy công ty đang gặp vấn đề về khách hàng rất lớn, những điểm RFM đáng lo ngại như 344, 444 có số lượng lớn.
+###### Nhận xét: Có thể thấy công ty đang gặp vấn đề về khách hàng rất lớn, những điểm RFM đáng lo ngại như 344, 444 có số lượng lớn.
 
 ### 2. Phân cụm K-means
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/cc683550-7025-41d2-a332-50fb779e8906)
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/3b069e03-f5c9-45a1-9f75-4cc4898595f8)
-→ Dựa vào phương pháp Elbow, ta chọn K = 5.
+- Dựa vào phương pháp Elbow, ta chọn K = 5.
 
 ***Kết quả*
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a41c9fa5-21b8-46ba-8a48-398292e70bd0)
@@ -46,6 +46,7 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 -	Khách hàng chắc chắn rời công ty: Những khách hàng này đã chi rất ít, mua rất ít lần và đặt hàng lần cuối cách đây khá lâu.
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/8c2a978a-9b54-40de-8a01-c9de8982bdbf)
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/00d8debe-e7cb-4cf7-afd2-16fc5ca1b112)
+
 
 ***Nhận xét:*
 -	Khách hàng có rủi ro rời công ty đang chiếm tỷ lệ % khá lớn.
