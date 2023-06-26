@@ -38,7 +38,9 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 
   
 ***Phác họa chân dung mỗi nhóm khách hàng:*
+
  	![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a6d71044-15e0-464e-a07c-e14d0ad46b9d)
+  
  	![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/27c1baa3-544f-4a37-a129-995ad2b118ef)
 
   
