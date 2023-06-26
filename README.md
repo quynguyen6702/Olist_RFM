@@ -1,4 +1,4 @@
-![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/ad3fe08b-09ee-44b7-b3e3-d40bec426064)## Chủ đề: Phân khúc khách hàng công ty OLIST tại Brazil dựa trên mô hình RFM và thuật toán K-Means 
+## Chủ đề: Phân khúc khách hàng công ty OLIST tại Brazil dựa trên mô hình RFM và thuật toán K-Means 
 ***Cơ sở lý thuyết*
 ### 1.	Mô hình RFM
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/4106a8c1-55c8-4d58-9fbe-fa516b443e20)
@@ -29,7 +29,7 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 
 ***Kết quả*
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a41c9fa5-21b8-46ba-8a48-398292e70bd0)
-Dựa vào sự phân bố của các cụm dựa vào các điểm RFM ta có thể thấy:
+###### Dựa vào sự phân bố của các cụm dựa vào các điểm RFM ta có thể thấy:
 -	Với cụm cluster 0: Ta thấy cụm phân bố nhiều ở các điểm [211,212,311,411] là những khách hàng đã bỏ ra rất nhiều tiền để mua hàng, mua hàng thường xuyên,tuy nhiên đã lâu rồi không mua hàng → Khách hàng chi tiêu nhiều.
 -	Với cụm cluster 1: Ta thấy cụm phân bố nhiều ở các điểm [223,233,333,422,433] là những khách hàng đã lâu rồi không mua, nhưng mua hàng không thường xuyên và chi ra số tiền khá thấp → Khách hàng có rủi ro rời công ty.
 -	Với cụm cluster 2: Ta thấy cụm phân bố nhiều ở các điểm [244,344,444] là những khách hàng từ lâu rồi chưa mua hàng và mua với tần suất rất thấp,chi tiêu rất ít cho những lần mua → Khách hàng chắc chắn rời công ty.
