@@ -59,6 +59,7 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 -	Khách hàng chi tiêu nhiều chiếm 23.9% có thể thấy đây là nguồn doanh thu lớn của công ty.
 
 ### Thực hiện các bước xây dựng bài toán bằng Code
+#### Dữ liệu được lấy từ Kaggle: [Link ở đây](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 | Trình tự thực hiện | Tên các bước                                                      | Link code                                                    |
 | ----- | ------------------------------------------------------------                   | ------------------------------------------------------------ |
 | 1     |Làm sạch dữ liệu | [👆](https://drive.google.com/file/d/1eLf7Lqr2u5jzKl6zV8QHhOgzDoOX0Qcr/view?usp=sharing) |
