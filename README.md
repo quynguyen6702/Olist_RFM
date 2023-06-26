@@ -1,5 +1,5 @@
 ## Chủ đề: Phân khúc khách hàng công ty OLIST tại Brazil dựa trên mô hình RFM và thuật toán K-Means 
-***Cơ sở lý thuyết*
+## Cơ sở lý thuyết
 ### 1.	Mô hình RFM
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/4106a8c1-55c8-4d58-9fbe-fa516b443e20)
 ###### Phân tích RFM cho phép người làm marketing nhắm mục tiêu các nhóm khách hàng cụ thể với các thông tin liên lạc phù hợp hơn nhiều với hành vi cụ thể của họ –và do đó tạo ra tỷ lệ phản hồi cao hơn nhiều, cộng với sự trung thành và giá trị lâu dài của khách hàng tăng lên.
@@ -27,7 +27,7 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/3b069e03-f5c9-45a1-9f75-4cc4898595f8)
 - Dựa vào phương pháp Elbow, ta chọn K = 5.
 
-***Kết quả*
+#### Kết quả
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a41c9fa5-21b8-46ba-8a48-398292e70bd0)
 ###### Dựa vào sự phân bố của các cụm dựa vào các điểm RFM ta có thể thấy:
 -	Với cụm cluster 0: Ta thấy cụm phân bố nhiều ở các điểm [211,212,311,411] là những khách hàng đã bỏ ra rất nhiều tiền để mua hàng, mua hàng thường xuyên,tuy nhiên đã lâu rồi không mua hàng → Khách hàng chi tiêu nhiều.
@@ -37,14 +37,14 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 -	Với cụm cluster 4: Ta thấy cụm phân bố nhiều ở các điểm [111,112,113,121,122,123,131,132] là những khách hàng mua hàng giao dịch gần đây, mua hàng thường xuyên, chi tiêu nhiều → Khách hàng trung thành.
 
   
-***Phác họa chân dung mỗi nhóm khách hàng:*
+#### Phác họa chân dung mỗi nhóm khách hàng
 
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/a6d71044-15e0-464e-a07c-e14d0ad46b9d)
 
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/27c1baa3-544f-4a37-a129-995ad2b118ef)
 
   
-***Đặc điểm khách hàng:*
+#### Đặc điểm khách hàng
 -	Khách hàng chi tiêu nhiều nhất: Phân khúc khách hàng này chỉ dựa trên một trong ba chỉ số: những khách hàng có điểm số cao nhất về giá trị tiền tệ. 
 -	Khách hàng trung thành: Đây là một phân khúc khách hàng khác chỉ xem xét một trong ba chỉ số: khách hàng có điểm cao nhất về tần suất. Mặc dù mua hàng thường xuyên nhưng họ không nhất thiết phải là người chi tiêu nhiều nhất.
 -	Khách hàng có rủi ro rời công ty: Những khách hàng từng ở cấp cao nhất của công ty trước đây (chi tiêu nhiều và/hoặc trung thành) nhưng hiện có điểm thấp về mức độ gần đây và tần suất thấp.
@@ -54,7 +54,7 @@ Nó dựa trên tiên đề tiếp thị rằng 80% doanh thu doanh nghiệp c�
 ![image](https://github.com/quynguyen6702/Olist_RFM/assets/125745108/00d8debe-e7cb-4cf7-afd2-16fc5ca1b112)
 
 
-***Nhận xét:*
+#### Nhận xét
 -	Khách hàng có rủi ro rời công ty đang chiếm tỷ lệ % khá lớn.
 -	Khách hàng chi tiêu nhiều chiếm 23.9% có thể thấy đây là nguồn doanh thu lớn của công ty.
 
